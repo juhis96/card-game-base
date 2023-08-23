@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <h1 id="header"></h1>
+    <div class="container">
+      <div class="player-section">
+        <h2>Players</h2>
+        <ul id="player-list"></ul>
+        <input type="text" id="player-name" placeholder="Enter player name">
+        <button id="add-player">Add Player</button>
+      </div>
+      <div class="card-section">
+        <div id="rule-section">
+           <h1>Rules</h1>
+           <ul class="rule-list">
+             <li>First rule</li>
+             <li>Second rule</li>
+             <li>Third rule</li>
+           </ul>
+        </div>
+        <div class="card" id="card">
+          <h2>Card Details</h2>
+          <div id="card-name"></div>
+          <div id="card-rarity"></div>
+          <div id="card-image"><img id="card-img" src=""/></div>
+          <div id="card-description"></div>
+          <button id="next-card" disabled>Next Card</button>
+        </div>
+        <button id="start-game">Start Game</button>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

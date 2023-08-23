@@ -1,0 +1,53 @@
+{
+  "cards": [
+    {
+      "name": "Card 1",
+      "rarity": "common",
+      "description": "Card 1 Description",
+      "image": "https://i.imgur.com/OD97S85.png"
+    },
+    {
+      "name": "Card 2",
+      "rarity": "rare",
+      "description": "Card 2 Description",
+      "image": "kuva2.jpg"
+    },
+    {
+      "name": "Card 3",
+      "rarity": "rare",
+      "description": "Card 3 Description",
+      "image": "kuva3.jpg"
+    },
+    {
+      "name": "Card 4",
+      "rarity": "epic",
+      "description": "Card 4 Description",
+      "image": "kuva4.jpg"
+    },
+    {
+      "name": "Card 5",
+      "rarity": "common",
+      "description": "Card 5 Description",
+      "image": "kuva5.jpg"
+    },
+    {
+      "name": "Card 6",
+      "rarity": "legendary",
+      "description": "Card 6 Description",
+      "image": "kuva6.jpg"
+    },
+    {
+      "name": "Card 7",
+      "rarity": "mythic",
+      "description": "Card 7 Description",
+      "image": "kuva7.jpg"
+    }
+  ],
+  "rarities": [
+    { "name": "common", "weight": 4 },
+    { "name": "rare", "weight": 3 },
+    { "name": "epic", "weight": 2 },
+    { "name": "legendary", "weight": 1 },
+    { "name": "mythic", "weight": 0.5 }
+  ]
+}
